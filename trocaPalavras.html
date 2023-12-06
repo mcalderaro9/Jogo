@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Troca Palavras</title>     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scriptTrocaPal.js"></script>
+    <link rel="stylesheet" href="caberod.css">
+    <link rel="stylesheet" href="styleTroca.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a class="logo" href="index.html">Paper Games</a>
+            </div>
+            <div class="links">
+                <a href="index.html">Início</a>
+                <a href="/">Sobre</a>
+                <a href="/">Jogos</a>
+                <a href="selecaoPerso.html">Personagens</a>
+            </div>
+          </div> 
+          <h1>TROCA PALAVRAS</h1>
+    </header>
+    
+
+    <div class="albuns">
+      <div class="card">
+        <img src="Imagens/gal.jpg" alt="">
+        <p>Meu Nome É <strong id="palavra1">Gal</strong> </p>
+    </div>
+    <div class="card">
+        <img src="Imagens/zéramalho.jpg" alt="">
+        <p>Chão de <strong id="palavra2">Giz</strong> </p>
+    </div>
+    <div class="card">
+        <img src="Imagens/nando.jpg" alt="">
+        <p>Pra Você Guardei o <strong id="palavra3">Amor</strong> </p>
+    </div>
+    <div class="card">
+        <img src="Imagens/anavitoria.png" alt="">
+        <p>Agora eu quero <strong id="palavra4">ir</strong> </p>
+    </div>
+    <div class="card">
+        <img src="Imagens/titãs.jpg" alt="">
+        <p>Pra dizer <strong id="palavra5">Adeus</strong> </p>
+    </div>
+    <div class="card">
+      <img src="Imagens/cazuza.jpg" alt="">
+      <p>O <strong id="palavra6">Tempo</strong> Não Para </p>
+  </div>
+  <div class="card">
+    <img src="Imagens/belchior.jpeg" alt="">
+    <p>Pequeno mapa do <strong id="palavra7">Tempo</strong> </p>
+</div>
+<div class="card">
+  <img src="Imagens/bethania.jpeg" alt="">
+  <p>Brincar de <strong id="palavra8">Viver</strong> </p>
+</div>
+    </div>
+    
+
+    <br>
+
+    <input id="palavra" type="text" placeholder="Digite sua palavra">
+    <br>
+    <button onclick="TrocaPalavra()">Jogar</button>
+
+    <footer>
+      <div id="footer_content">
+          <div id="footer_contacts">
+              <img src="Imagens/logo2.png" alt="">
+              <p>It's all about your dreams.</p>
+
+              <div id="footer_social_media">
+                  <a href="#" class="footer-link" id="instagram">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+
+                  <a href="#" class="footer-link" id="facebook">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                  <a href="#" class="footer-link" id="whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </div>
+          </div>
+          
+          <ul class="footer-list">
+              <li>
+                  <h3>Blog</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Tech</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Adventures</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Music</a>
+              </li>
+          </ul>
+
+          <ul class="footer-list">
+              <li>
+                  <h3>Products</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">App</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Desktop</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Cloud</a>
+              </li>
+          </ul>
+
+          <div id="footer_subscribe">
+              <h3>Subscribe</h3>
+
+              <p>
+                  Enter your e-mail to get notified about
+                  our news solutions
+              </p>
+
+              <div id="input_group">
+                  <input type="email" id="email">
+                  <button>
+                      <i class="fa-regular fa-envelope"></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+
+      <div id="footer_copyright">
+          &#169
+          2023 all rights reserved
+      </div>
+  </footer>
+ 
+
+</body>
+</html>

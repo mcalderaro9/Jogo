@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="selecao.css">
+   <script src="scriptSelec.js"></script>
+   <title>Personagens</title>
+
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a class="logo" href="index.html">Paper Games</a>
+            </div>
+            <div class="links">
+                <a href="index.html">Início</a>
+                <a href="/">Sobre</a>
+                <a href="/">Jogos</a>
+                <a href="selecaoPerso.html">Personagens</a>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <div id="selecao-personagem">
+            <h2>Escolha seu personagem</h2>
+            <br>
+            <nav>
+                <div>
+                    <a href="#" onclick="DadosPersonagem(0)">
+                        <img src="Imagens/gal1.png" alt="" class="img">
+                        <p>Gal Costa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" onclick="DadosPersonagem(1)">
+                        <img src="Imagens/caetano.png" alt="" class="img">
+                        <p>Caetano Veloso</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" onclick="DadosPersonagem(2)">
+                        <img src="Imagens/gil.png" alt="" class="img">
+                        <p>Gilberto Gil</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" onclick="DadosPersonagem(3)">
+                        <img src="Imagens/bethania.png" alt="" class="img">
+                        <p>Maria Bethânia</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" onclick="DadosPersonagem(4)">
+                        <img src="Imagens/belchior.png" alt="" class="img">
+                        <p>Belchior</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="DadosPersonagem(5)">
+                        <img src="Imagens/nando2.png" alt="" class="img">
+                        <p>Nando Reis</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="DadosPersonagem(6)">
+                        <img src="Imagens/cazuza2.png" alt="" class="img">
+                        <p>Cazuza</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="DadosPersonagem(7)">
+                        <img src="Imagens/rita.png" alt="" class="img">
+                        <p>Rita Lee</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="DadosPersonagem(8)">
+                        <img src="Imagens/marina.png" alt="" class="img">
+                        <p>Marina Lima</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#" onclick="DadosPersonagem(9)">
+                        <img src="Imagens/marisa.png" alt="" class="img">
+                        <p>Marisa Monte</p>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    
+        <div id="resultado" >
+            <div id="conteudo-img"></div>
+            <div id="conteudo"></div>
+        </div>
+       </main>
+
+       <footer>
+           <div id="footer_content">
+               <div id="footer_contacts">
+                   <img src="Imagens/logo2.png" alt="" id="img_footer">
+                   <p>It's all about your dreams.</p>
+   
+                   <div id="footer_social_media">
+                       <a href="#" class="footer-link" id="instagram">
+                           <i class="fa-brands fa-instagram"></i>
+                       </a>
+   
+                       <a href="#" class="footer-link" id="facebook">
+                           <i class="fa-brands fa-facebook-f"></i>
+                       </a>
+   
+                       <a href="#" class="footer-link" id="whatsapp">
+                           <i class="fa-brands fa-whatsapp"></i>
+                       </a>
+                   </div>
+               </div>
+               
+               <ul class="footer-list">
+                   <li>
+                       <h3>Blog</h3>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">Tech</a>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">Adventures</a>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">Music</a>
+                   </li>
+               </ul>
+   
+               <ul class="footer-list">
+                   <li>
+                       <h3>Products</h3>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">App</a>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">Desktop</a>
+                   </li>
+                   <li>
+                       <a href="#" class="footer-link">Cloud</a>
+                   </li>
+               </ul>
+   
+               <div id="footer_subscribe">
+                   <h3>Subscribe</h3>
+   
+                   <p>
+                       Enter your e-mail to get notified about
+                       our news solutions
+                   </p>
+   
+                   <div id="input_group">
+                       <input type="email" id="email">
+                       <button>
+                           <i class="fa-regular fa-envelope"></i>
+                       </button>
+                   </div>
+               </div>
+           </div>
+   
+           <div id="footer_copyright">
+               &#169
+               2023 all rights reserved
+           </div>
+       </footer>
+
+    
+
+</body>
+</html>

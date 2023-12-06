@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="styleVelha.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scriptVelha.js"></script>
+</head>
+<body onload="recomeca()">
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a class="logo" href="index.html">Paper Games</a>
+            </div>
+            <div class="links">
+                <a href="index.html">Início</a>
+                <a href="/">Sobre</a>
+                <a href="/">Jogos</a>
+                <a href="selecaoPerso.html">Personagens</a>
+            </div>
+          </div>
+    </header>
+    </header>
+<div id="jogo">
+
+    <!-- Canadá -->
+    <div class="linha">
+
+        <div class="casa" id="casa0" onclick="verifica(0)">
+        <img src="" id="img0">
+        </div>
+
+        <div class="casa" id="casa1" onclick="verifica(1)">
+            <img src="" id="img1">
+        </div>
+
+        <div class="casa" id="casa2" onclick="verifica(2)">
+            <img src="" id="img2">
+        </div>
+
+        <div class="casa" id="casa3" onclick="verifica(3)">
+            <img src="" id="img3">
+        </div>
+
+        <div class="casa" id="casa4" onclick="verifica(4)">
+            <img src="" id="img4">
+        </div>
+
+        <div class="casa" id="casa5" onclick="verifica(5)">
+            <img src="" id="img5">
+        </div>
+
+        <div class="casa" id="casa6" onclick="verifica(6)">
+            <img src="" id="img6">
+        </div>
+
+        <div class="casa" id="casa7" onclick="verifica(7)">
+            <img src="" id="img7">
+        </div>
+
+        <div class="casa" id="casa8" onclick="verifica(8)">
+            <img src="" id="img8">
+        </div>
+
+    </div>
+</div>
+
+<div class="texto">
+    <p id="resposta">RESULTADO: </p>
+    <div id="resultado"></div>
+<p id="xis" class="xis">Clave de Sol: 0</p>
+<p id="bola" class="bola">Clave de Fá: 0</p>
+<p id="velha" class="velha">VELHA: 0</p>
+</div>
+
+
+<form>
+    <input type="button" id="btnNovo" value="NOVO JOGO" onclick="recomeca()">
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+ <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <img src="Imagens/logo2.png" alt="">
+            <p>It's all about your dreams.</p>
+
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        
+        <ul class="footer-list">
+            <li>
+                <h3>Blog</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Tech</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Adventures</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Music</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Products</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">App</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Desktop</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Cloud</a>
+            </li>
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Subscribe</h3>
+
+            <p>
+                Enter your e-mail to get notified about
+                our news solutions
+            </p>
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        &#169
+        2023 all rights reserved
+    </div>
+</footer>
+    
+</body>
+</html>

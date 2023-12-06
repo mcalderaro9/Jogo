@@ -1,0 +1,65 @@
+{
+    "Personagem":[
+        {       
+            "nome": "Gal Costa",
+            "imagem" : "<img src='Imagens/883a283c5086f9b47d8e07fdbd141798.jpg' class='img'>",
+            "datanasc" : "26 de setembro de 1945",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Caetano Veloso",
+            "imagem" : "<img src='Imagens/Caetano Veloso.jpg' class='img'>",
+            "datanasc" :"7 de agosto de 1942",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Gilberto Gil",
+            "imagem" : "<img src='Imagens/Show de Gilberto Gil (1).jpg' class='img'>",
+            "datanasc" : "26 de junho de 1942",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Maria Bethania",
+            "imagem" : "<img src='Imagens/Bethania 2018.jpg' class='img'>",
+            "datanasc" : "18 de junho de 1946",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Belchior",
+            "imagem" : "<img src='Imagens/4d8e62a694ea454c1619042523d88d4e.jpg' class='img'>",
+            "datanasc" : "26 de outubro de 1946",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Nando Reis",
+            "imagem" : "<img src='Imagens/Nando Reis.jpg' class='img'>",
+            "datanasc" : "12 de janeiro de 1963",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Cazuza",
+            "imagem" : "<img src='Imagens/download.jpg' class='img'>",
+            "datanasc" : "4 de abril de 1958",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Rita Lee",
+            "imagem" : "<img src='Imagens/a02dde2c5ec8d2b4ed773e5db12d6299.jpg' class='img'>",
+            "datanasc" : "31 de dezembro de 1947",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Marina Lima",
+            "imagem" : "<img src='Imagens/download (3).jpg' class='img'>",
+            "datanasc" : "17 de setembro de 1955",
+            "genero": "MPB"
+        },
+        {
+            "nome": "Marisa Monte",
+            "imagem" : "<img src='Imagens/bc06c02c8730d52f744ee0c22618db29.jpg' class='img'>",
+            "datanasc" : "1 de julho de 1967",
+            "genero": "MPB"
+        }
+
+    ]
+}
